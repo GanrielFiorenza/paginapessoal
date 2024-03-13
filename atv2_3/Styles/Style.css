@@ -93,3 +93,12 @@ hr{
 .card_link:hover{
     color: darkblue;
 }
+
+.contatos .card_link {
+    display: block;
+    margin-bottom: 10px; /* Espaçamento entre os links */
+}
+
+.tabela{
+    padding: 10px;
+}

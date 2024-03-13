@@ -1,0 +1,62 @@
+/* Resetando as margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo a fonte padrão */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D3D3D3; /* Mantém o fundo cinza */
+}
+
+/* Estilo para o formulário */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #D3D3D3; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os labels */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para os inputs */
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+}
+
+/* Estilo para o botão de enviar */
+form input[type="submit"] {
+    width: 100%;
+    background-color: #3572A5;
+    color: white; /* Corrigido para o texto branco para melhor legibilidade */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #4d90fe; /* Corrigido para um tom de azul mais claro */
+}
