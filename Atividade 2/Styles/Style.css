@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #D3D3D3;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    color: white;
+}
+
+.title {
+    margin: 0;
+    color: white;
+    flex-grow: 1; /* Ocupa o espaço restante */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+
+.cabecalho img {
+    border-radius: 50%;
+    width: 50px; /* Ajuste conforme necessário */
+    height: 50px; /* Ajuste conforme necessário */
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    background-color: gray;
+}
+
+.atalhos {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.atalhos li {
+    margin-right: 10px;
+}
+
+.topicos {
+    font-size: 20px;
+    color: white;
+    text-decoration: none; /* Remover decoração de link */
+}
+
+.topicos:hover {
+    color: darkblue;
+    font-size: 120%;
+}
+
+hr{
+    color: gray;
+    background-color: gray;
+    height: 3px;
+    width: 70%;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    margin-right: 50px;
+}
+
+.card_list {
+    list-style-type: none;
+    margin-bottom: 10px; /* Adiciona espaçamento entre os itens da lista */
+}
+
+.card_list li {
+    margin-bottom: 5px; /* Adiciona espaçamento entre os itens da lista */
+}
+
+.card h2{
+    margin-right: 10px;
+}
+
+.card_link{
+    color: #3572A5;
+}
+
+.card_link:hover{
+    color: darkblue;
+}
